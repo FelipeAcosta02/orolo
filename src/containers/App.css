@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+.ant-carousel .slick-slide {
+  margin-top: 3em;
+  text-align: center;
+  padding: 20px;
+  min-height: 335px !important;
+  background-color: #FF2968;
+  overflow: hidden;
+  border-radius: 8pt;
+  border-color: 2px solid #fff;
+  user-select: none;
+}
+
+.ant-carousel .slick-slide p {
+  color: #fff;
+  vertical-align: middle;
+}
