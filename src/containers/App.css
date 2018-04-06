@@ -7,7 +7,7 @@
   margin-top: 3em;
   text-align: center;
   padding: 20px;
-  min-height: 25em !important;
+  min-height: 20em !important;
   background-color: #FF2968;
   overflow: hidden;
   border-radius: 8pt;
@@ -18,4 +18,10 @@
 .ant-carousel .slick-slide p {
   color: #fff;
   vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+  .ant-carousel .slick-slide {
+    min-height: 28em !important;
+  }
 }
